@@ -1,4 +1,6 @@
 class ElephantController < ApplicationController
-  def
+  def amsterdam
+
+    render( { :template => "new_calc/square_root"})
   end
 end
