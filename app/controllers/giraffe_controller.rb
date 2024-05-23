@@ -1,4 +1,5 @@
 class GiraffeController < ApplicationController
-  def
+  def nairobi
+    render( { :template => "new_calc/payment"})
   end
 end
