@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get("/", { :controller => "lion", :action => "vienna" })
+  get("/", { :controller => "homepage", :action => "home" })
 
   get("/square/new", { :controller => "dog", :action => "chicago" })
 
