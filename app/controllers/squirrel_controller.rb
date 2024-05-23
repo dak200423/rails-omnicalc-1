@@ -1,4 +1,5 @@
 class SquirrelController < ApplicationController
-  def
+  def rome
+    render( { :template => "new_calc/random"})
   end
 end
